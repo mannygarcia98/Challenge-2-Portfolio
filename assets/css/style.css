@@ -33,6 +33,13 @@ body h4 {
   margin: 1vw 1vw;
 }
 
+body h5 {
+  font-size: calc(2vh + 2vw);
+  font-weight: 500;
+  text-align: center;
+  margin: 1vw 1vw;
+}
+
 /* Header Styles */
 header {
   /* height: auto; */
@@ -154,19 +161,61 @@ header nav ul li a:hover {
   width: 40vw;
   border-radius: 50%;
   margin: 0 auto;
-  flex-basis: 300px;
+  flex-basis: 30vh 30vw;
   flex-grow: 1;
 }
 
 .about p {
   flex-basis: 300px;
   flex-grow: 2;
-  font-size: calc(2vh + 2vw);
+  font-size: calc(1.5vh + 1.5vw);
   text-align: center;
+  padding: 1vh 0;
 }
 /* End About Styles */
 
 /* Work Styles */
+.primary-project {
+  /* position: relative; */
+  background: linear-gradient(
+    to right top,
+    #194189 0%,
+    #3b4980 25%,
+    #8738a7 100%
+  );
+  /* height: 60vh; */
+  border-radius: 12px;
+  margin: 10px;
+}
+
+.primary-project img {
+  display: block;
+  margin: 0 auto;
+  width: 50vw;
+}
+
+.run-buddy-container {
+  display: flex;
+}
+
+.secondary-projects-container {
+  columns: 2;
+}
+
+.calculator {
+  background-image: url(../images/calculator.jpg);
+  background-size: cover;
+}
+
+.secondary-project p {
+  opacity: 0%;
+}
+
+/* .secondary-project p:hover {
+  filter: grayscale(10%);
+  color: var(--primary-color);
+  opacity: 100%;
+} */
 /* End Work Styles */
 
 /* Contact Styles */
