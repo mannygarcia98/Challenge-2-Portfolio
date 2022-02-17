@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap");
+
+:root {
+  --primary-color: #fff;
+  --secondary-color: #000;
+  --tertiary-color: #cd89f1;
+  --quaternary-color: #eb5ea2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 1px solid red;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  /* height: 100vh;
+  width: 100vw; */
+  height: 100%;
+  width: 100%;
+}
+
+/* Header Styles */
+header {
+  padding: 0 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  top: 0;
+  background-image: url(../images/herobg.jpg);
+  background-color: var(--secondary-color);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 80%;
+  z-index: 9999;
+}
+
+header h1 {
+  /* display: inline-block; */
+  /* line-height: 1px; */
+  font-weight: 800;
+  /* padding: 1px 1px; */
+  margin: 0;
+  font-size: calc(2vh + 2vw);
+  color: var(--primary-color);
+}
+
+header a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+header nav {
+  margin: 7px 0;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+header nav ul li a {
+  /* margin: 0 4px; */
+  padding: 1px 7px;
+  font-weight: 300;
+  font-size: calc(2vh + 2vw);
+}
+
+header nav ul li a:hover {
+  background: var(--tertiary-color);
+  color: var(--primary-color);
+  border-radius: 0.6em;
+}
+/* End Header Styles */
+
+/* Hero Styles */
+.hero {
+  background-image: url(../images/herobg.jpg);
+  background-color: var(--secondary-color);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 80%;
+  width: ;
+}
+/* End Hero Styles */
+
+/* About Styles */
+/* End About Styles */
+
+/* Work Styles */
+/* End Work Styles */
+
+/* Contact Styles */
+/* End Contact Styles */
+
+/* Footer Styles */
+/* End Footer Styles */
