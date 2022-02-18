@@ -15,6 +15,7 @@
   box-sizing: border-box;
 }
 
+html,
 body {
   padding: 0;
   font-family: "Montserrat", sans-serif;
@@ -24,6 +25,7 @@ body {
   width: 100vw; */
   height: 100%;
   width: 100%;
+  margin: 0;
 }
 
 body h4 {
@@ -106,8 +108,11 @@ header nav ul li a:hover {
   background-size: cover;
   background-attachment: fixed;
   background-position: 80%;
-  width: 100%;
-  height: calc(100vh - calc(4vw + 4vh));
+  width: 100vw;
+  height: calc(100% - calc(4vw + 4vh));
+  min-height: calc(100% - calc(4vw + 4vh));
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .hero {
@@ -204,18 +209,26 @@ header nav ul li a:hover {
 
 .calculator {
   background-image: url(../images/calculator.jpg);
-  background-size: cover;
+  background-size: 155%;
+  background-position: center;
+  border-radius: 12px;
+}
+
+.calculator h5 {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 12px;
+  background-position: center;
 }
 
 .secondary-project p {
   opacity: 0%;
 }
 
-/* .secondary-project p:hover {
+.secondary-project p:hover {
   filter: grayscale(10%);
   color: var(--primary-color);
   opacity: 100%;
-} */
+}
 /* End Work Styles */
 
 /* Contact Styles */
